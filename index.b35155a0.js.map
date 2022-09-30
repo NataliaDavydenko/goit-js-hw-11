@@ -1,1 +1,0 @@
-{"mappings":"AACmBA,SAASC,cAAc,gBACxBD,SAASC,cAAc,UACzBD,SAASC,cAAc","sources":["src/index.js"],"sourcesContent":["\nconst searchForm = document.querySelector(\"#search-form\");\nconst submitBtn = document.querySelector('button');\nconst inputEl = document.querySelector('input');"],"names":["document","querySelector"],"version":3,"file":"index.b35155a0.js.map"}
