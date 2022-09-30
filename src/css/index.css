@@ -6,3 +6,59 @@
     align-items: center;
     height: 50px;
 }
+
+.load-more{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    cursor: pointer;
+    padding: 5px;
+    color: azure;
+    background-color:#4682B4;
+    border: transparent;
+}
+
+.load-more:hover,
+.load-more:focus{
+    background-color: #0a5fa5;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.gallery{
+    margin-top: 20px;
+    max-width: 1015px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo-card {
+    width: 240px;
+
+    margin-bottom: 10px;
+
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.15);
+}
+
+.photo-card img {
+    float: center;
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+
+}
+
+.info {
+    margin-left: 5px;
+    font-size: 12px;
+}
